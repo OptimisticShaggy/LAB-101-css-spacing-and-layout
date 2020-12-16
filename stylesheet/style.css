@@ -1,0 +1,60 @@
+body {
+  background: url(https://images.unsplash.com/photo-1534224039826-c7a0eda0e6b3?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  opacity: 0.8;
+  display: flex;
+  flex-direction: column;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul> li {
+  display: inline-block;
+}
+
+img {
+  width: 25%;
+  height: 25%;
+  display: inline-block;
+}
+
+header {
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+main {
+  align-content: stretch;
+  flex-flow: column;
+  align-items: center;
+}
+
+footer {
+  justify-content: center;
+  align-items: center;
+}
+
+article {
+  align-items: center;
+  text-align: center;
+}
+
+.bg-dark {
+  display: flex;
+  background-color: white;
+  margin: 1%;
+  padding: .5%;
+}
+
+ul#listJobs > li {
+  border: 1px inset red;
+  border-radius: 5%;
+}
+
+
+
