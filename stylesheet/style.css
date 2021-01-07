@@ -4,38 +4,36 @@ body {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  opacity: 0.8;
+  opacity: 0.9;
   display: flex;
   flex-direction: column;
+}
+
+header {
+  margin: 25%
+}
+
+img {
+  width: 25%;
+  height: 25%;
 }
 
 ul {
   list-style-type: none;
 }
 
-ul> li {
-  display: inline-block;
-}
-
-img {
-  width: 25%;
-  height: 25%;
-  display: inline-block;
+ul#listNav li{
+  display: inline;
 }
 
 header {
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
 }
 
 main {
   align-content: stretch;
   flex-flow: column;
-  align-items: center;
-}
-
-footer {
-  justify-content: center;
   align-items: center;
 }
 
@@ -47,14 +45,17 @@ article {
 .bg-dark {
   display: flex;
   background-color: white;
-  margin: 1%;
+  margin: 1% auto;
   padding: .5%;
 }
 
-ul#listJobs > li {
-  border: 1px inset red;
-  border-radius: 5%;
+footer.bg-dark {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-
-
+a, a:visited {
+  text-decoration: none;
+  color: dodgerblue;
+}
