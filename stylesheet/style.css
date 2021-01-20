@@ -19,7 +19,7 @@ ul {
 
 img{
   display: inline-block;
-  max-width: 100%;
+  max-width: 75%;
 }
 
 ul#listNav li{
@@ -43,6 +43,10 @@ section {
   flex-direction: row;
   flex-shrink: 5;
   justify-content: center;
+}
+
+main.bg-dark {
+  max-width: 75%;
 }
 
 .bg-dark {
