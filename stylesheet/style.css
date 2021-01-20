@@ -17,6 +17,11 @@ ul {
   list-style-type: none;
 }
 
+img{
+  display: inline-block;
+  max-width: 100%;
+}
+
 ul#listNav li{
   display: inline;
 }
@@ -37,7 +42,7 @@ section {
   flex-wrap: wrap;
   flex-direction: row;
   flex-shrink: 5;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .bg-dark {
@@ -56,8 +61,4 @@ footer.bg-dark {
 a, a:visited {
   text-decoration: none;
   color: dodgerblue;
-}
-
-img {
-  width: 100%;
 }
